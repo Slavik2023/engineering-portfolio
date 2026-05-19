@@ -1,14 +1,19 @@
-# Engineering Portfolio — Production Social Platform (2025–2026)
+# Engineering Portfolio (2025–2026)
 
-This repository contains **sanitized, extracted snippets** from a production
-social platform I designed and shipped. The full codebase is proprietary, so
-this is a curated set of patterns and decisions intended to demonstrate
-engineering judgement — not to be a runnable clone.
+This repository contains **sanitized, extracted snippets and case studies**
+from production projects I designed and shipped over the past ~12 months
+of AI-assisted development. The full codebases are proprietary, so what
+you'll find here is the engineering practice — not runnable clones.
 
-Production product: a social platform (~200 REST endpoints, 80+ admin
-pages, 100+ database migrations, ~100K LOC). Product name and domain
-omitted intentionally — this repository is about engineering practice,
-not the specific business.
+**For a one-page overview of the five products behind this portfolio →
+[`PROJECTS.md`](PROJECTS.md).**
+
+The deep-dives, code samples, and war stories below come from the
+**largest** of those projects: a vertical-community social platform with
+~200 REST endpoints, 80+ admin pages, 100+ database migrations, ~100K
+LOC, web + mobile + admin. Product name and domain omitted intentionally
+— this repository is about engineering practice, not the specific
+business.
 
 ---
 
@@ -16,6 +21,7 @@ not the specific business.
 
 | Section | What it shows |
 |---|---|
+| [`PROJECTS.md`](PROJECTS.md) | One-page overview of all five production projects (stack, scope, status) |
 | [`snippets/audit-log/`](snippets/audit-log/) | Tamper-evident hash-chained audit log (SHA256, transaction-locked sentinel, canonical walk order) |
 | [`snippets/pwa-install/`](snippets/pwa-install/) | Cross-browser PWA install flow that actually works on every platform |
 | [`snippets/admin-gate/`](snippets/admin-gate/) | 4-layer admin authentication (JWT → role → 2FA → PIN) |
