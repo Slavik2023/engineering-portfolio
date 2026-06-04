@@ -1,77 +1,98 @@
-# Engineering Portfolio (2025–2026)
+# Engineering Portfolio (AI-Native Full Stack Engineer)
 
-This repository contains **sanitized, extracted snippets and case studies**
-from production projects I designed and shipped over the past ~12 months
-of AI-assisted development. The full codebases are proprietary, so what
-you'll find here is the engineering practice — not runnable clones.
+## 👋 About Me
 
-**For a one-page overview of the five products behind this portfolio →
-[`PROJECTS.md`](PROJECTS.md).**
+Full Stack Engineer specializing in building production-grade systems using AI-augmented development workflows (Claude Code, Cursor).
 
-The deep-dives, code samples, and war stories below come from the
-**largest** of those projects: a vertical-community social platform with
-~200 REST endpoints, 80+ admin pages, 100+ database migrations, ~100K
-LOC, web + mobile + admin. Product name and domain omitted intentionally
-— this repository is about engineering practice, not the specific
-business.
+I design and ship end-to-end web systems — including backend architecture, real-time services, SaaS platforms, and scalable databases.
+
+I work best in async, documentation-driven environments with minimal meetings.
 
 ---
 
-## What's in here
+## 🚀 What This Portfolio Shows
 
-| Section | What it shows |
-|---|---|
-| [`PROJECTS.md`](PROJECTS.md) | One-page overview of all five production projects (stack, scope, status) |
-| [`snippets/audit-log/`](snippets/audit-log/) | Tamper-evident hash-chained audit log (SHA256, transaction-locked sentinel, canonical walk order) |
-| [`snippets/pwa-install/`](snippets/pwa-install/) | Cross-browser PWA install flow that actually works on every platform |
-| [`snippets/admin-gate/`](snippets/admin-gate/) | 4-layer admin authentication (JWT → role → 2FA → PIN) |
-| [`snippets/csp-hardening/`](snippets/csp-hardening/) | Strict CSP without `'unsafe-inline'`, and how to live with it |
-| [`snippets/cross-flow-moderation/`](snippets/cross-flow-moderation/) | Real-time moderation: admin action → user feed updates instantly |
-| [`case-studies/`](case-studies/) | War stories: bugs that took 5 migrations to close, debugging stale Docker bundles, CSP silently dropping a script |
-| [`ARCHITECTURE.md`](ARCHITECTURE.md) | High-level system design, scaling playbook |
+This repository demonstrates real-world engineering practices from production systems I built and shipped over the last ~12 months.
 
----
+Focus areas:
 
-## What's intentionally NOT here
-
-- Database schema, migrations, or seed data
-- Full route registrations and business logic
-- Authentication secrets, JWT keys, demo accounts
-- Brand assets, domain references
-- Frontend routing tables, Redux store wiring
-- Mobile app code
-
-These are excluded so a competitor cannot bootstrap a working clone from the
-snippets. The product, identifiers, schemas, and proprietary algorithms stay
-with the company.
+* System architecture & scalability
+* Multi-tenant SaaS design
+* Real-time backend systems
+* Database design & reliability
+* Secure authentication systems
+* Production debugging & incident handling
 
 ---
 
-## Why I think this is worth your time
+## 🟢 Featured Engineering Work
 
-Each snippet ships with a **README explaining the decision**, not just the
-code. Look for the trade-offs and the war stories — the wrong-but-tempting
-alternatives I rejected — that's the actual engineering signal here.
+### 1. Audit Log System (Tamper-Evident Design)
 
-If a single file catches your eye, jump to:
-- **[Audit log](snippets/audit-log/README.md)** — the showpiece
-- **[5-migration hash-chain race](case-studies/hash-chain-race.md)** — most representative debugging story
-- **[CSP silently dropped my GDPR script](case-studies/csp-silent-block.md)** — incident response
+* Hash-chained audit log using SHA256
+* Transaction-safe write pipeline
+* Verified integrity across 28,000+ production entries
+* Designed to prevent race-condition corruption
 
 ---
 
-## License
+### 2. Cross-Platform PWA System
 
-Code snippets in this repo: MIT (for recruitment / educational reading).
-Write-ups and case studies: CC BY 4.0.
-
-The original product remains proprietary to its owner.
+* Fully functional install flow across major browsers
+* Mobile + desktop compatibility layer
+* Event tracking under strict CSP constraints
 
 ---
 
-## A note on anonymity
+### 3. Multi-Layer Admin Security System
 
-This portfolio deliberately doesn't name the product or company. The
-goal is to demonstrate engineering quality, not to advertise a brand
-or expose internal details. If you're a recruiter and want to verify
-authorship, drop me a message and I'll share the context privately.
+* JWT + role-based access control
+* 2FA (TOTP)
+* PIN-based secondary verification layer
+* Designed to reduce privilege escalation risk
+
+---
+
+### 4. Real-Time Moderation System
+
+* Socket.IO-based event pipeline
+* Admin actions propagate instantly to users
+* End-to-end latency optimized (<50ms in production)
+
+---
+
+### 5. Production Incident Case Studies
+
+* CSP strict-mode deployment issues
+* Database race conditions requiring migration fixes
+* Docker deployment inconsistencies in production environments
+
+---
+
+## ⚙️ Tech Stack
+
+TypeScript, JavaScript, Node.js, Express, Fastify
+React, Next.js, React Native
+MySQL, Redis
+Docker, Nginx, Cloudflare
+Socket.IO, WebSockets
+Claude Code, Cursor (AI-assisted development)
+
+---
+
+## 🧠 AI Development Workflow
+
+I use AI tools (Claude Code, Cursor) to accelerate development:
+
+* Backend implementation
+* Debugging and refactoring
+* System design exploration
+* Rapid prototyping
+
+All architecture decisions, production design, and system ownership remain fully human-driven.
+
+---
+
+## 📫 Contact
+
+Available for remote contract / AI-native engineering roles.
