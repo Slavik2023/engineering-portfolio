@@ -10,7 +10,7 @@ I am currently available for:
 
 * Remote Full Stack Engineer roles
 * AI Engineer / AI-assisted development roles
-* Contract / Startup engineering work (0→1 products)
+* Contract / Startup engineering work (0→3 products)
 
 I work best in async, documentation-driven environments with minimal meetings.
 
